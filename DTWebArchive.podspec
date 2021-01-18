@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Oliver Drobnik" => "oliver@cocoanetics.com" }
   spec.documentation_url = 'https://docs.cocoanetics.com/DTWebArchive/'
   spec.social_media_url = 'https://twitter.com/Cocoanetics'
-  spec.source       = { :git => "https://github.com/Cocoanetics/DTWebArchive.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "git@github.com/smhjsw/DTWebArchive.git", :tag => spec.version.to_s }
   spec.license      = 'BSD'
   spec.requires_arc = true
   spec.ios.deployment_target = '6.0'
